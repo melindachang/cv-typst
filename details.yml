@@ -23,7 +23,7 @@ interests:
   - Literary theory, aesthetics, critical and cultural studies
 
 education:
-  - year: 2024--Present
+  - years: 2024--Present
     subject: B.A., Computer Science & Comparative Literary Studies
     institute: Northwestern University
     city: Evanston, IL
@@ -45,14 +45,14 @@ experience:
     city: La Jolla, CA
     advisor: Prof. Michael Coblenz
     description: Toward ergonomic programming languages and software processes for computational climate scientists.
-  - years: 2022
+  - years: "2022"
     employer: University of California, San Diego
     group: Laboratory for Computational Astrophysics
     job: Research Assistant
     city: La Jolla, CA
     advisor: Prof. Michael Norman
     description: Systems programming to support analysis of dark matter halos in early universe simulations.
-  - years: 2022
+  - years: "2022"
     employer: Hack Club
     job: Software Engineer Intern
     city: Shelburne, VT (Remote)
@@ -93,7 +93,7 @@ award:
 projects:
   - name: Albio
     url: https://github.com/melindachang/albio
-    year: 2022--2023
+    years: 2022--2023
     description: Lightweight JavaScript compiler to enable reactive web programming directly in markdown. Outperforms Virtual DOM-based frameworks like React, Vue in key benchmarks.
 
 coursework:
@@ -124,14 +124,5 @@ service:
     years: 2021--2024
   - title: Founder & Director
     organization: Hack the Wave
-    years: 2023
+    years: "2023"
     description: Organized San Diego County's biggest-ever high school hackathon.
-
-# Settings
-# mainfont: Hoefler Txt
-# mainfont: Cardo
-# fontsize: 10pt
-# lang: en-US
-# geometry: a4paper, left=35mm, right=35mm, top=35mm, bottom=20mm
-# ---
-

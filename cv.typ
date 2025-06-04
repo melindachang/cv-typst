@@ -1,3 +1,7 @@
+#let data = yaml("details.yml")
+
+//////// SETUP ////////
+
 #let margin-size = 1.25in
 #let margin-space = 0.4in
 
@@ -12,15 +16,22 @@
   numbering: "1",
 )
 
-#let data = yaml("details.yml")
+#set text(
+  font: "EB Garamond",
+  number-type: "old-style",
+  hyphenate: true,
+  weight: 500,
+)
 
-#set text(font: "Cardo", hyphenate: true)
-#set par(spacing: 1.4em)
+#set par(spacing: 1.2em, leading: 0.5em)
 
-#show link: set text(fill: rgb("#404acc"))
-#show heading: set text(weight: 400)
-#show heading: set block(above: 40pt, below: 25pt)
+#show link: set text(fill: rgb(11.7%, 68.2%, 85.8%))
 
+#show heading: set text(weight: 500)
+#show heading: set block(above: 40pt, below: 16pt)
+
+#show heading.where(level: 1): it => text(size: 18pt, it.body)
+#show heading.where(level: 2): it => block[#text(size: 16pt, it.body)]
 
 #let margin-note(dy: 0.25em, content) = {
   place(left, dx: -margin-size + margin-space, dy: dy, block(
@@ -32,6 +43,12 @@
     },
   ))
 }
+
+#let em-dashed(content) = {
+  [#content.split("--").join([--])]
+}
+
+//////// CONTENT ////////
 
 = #data.name
 
@@ -59,22 +76,22 @@
   if el != data.interests.last() [#parbreak()]
 }
 
-= Education
+== Education
 
 #for el in data.education [
   #block[
-    #margin-note[#el.year]
+    #margin-note[#em-dashed(el.years)]
     *#el.subject* \
     #emph[#el.institute], #el.city \
     GPA: #el.gpa, #el.subtitle
   ]
 ]
 
-= Selected Experience
+== Selected Experience
 
 #for el in data.experience [
   #block[
-    #margin-note[#el.years]
+    #margin-note[#em-dashed(el.years)]
     #smallcaps[#el.employer] \
     #emph[#el.job]#if "group" in el [, #el.group] \
     #if "advisor" in el [Advisor: #el.advisor. ]#el.description \
@@ -82,7 +99,7 @@
   ]
 ]
 
-= Publications
+== Publications
 
 #for el in data.publication [
   #block[
@@ -95,7 +112,7 @@
   ]
 ]
 
-= Awards & Grants
+== Awards & Grants
 
 #for el in data.award [
   #block[
@@ -104,33 +121,33 @@
   ]
 ]
 
-= Service
+== Service
 
 #for el in data.service [
   #block[
-    #margin-note[#el.years]
+    #margin-note[#em-dashed(el.years)]
     #emph[#el.title], #el.organization
     #if "description" in el [\ #el.description]
   ]
 ]
 
-= Selected Projects
+== Selected Projects
 
 #for el in data.projects [
   #block[
-    #margin-note[#el.year]
+    #margin-note[#em-dashed(el.years)]
     #link(el.url)[#emph[#el.name]]. #el.description
   ]
 ]
 
-= Selected Skills
+== Selected Skills
 
 #for el in data.skills {
   [#el]
   if el == data.skills.last() [.] else [ $dot.c$ ]
 }
 
-= Relevant Coursework
+== Relevant Coursework
 
 #for el in data.coursework {
   [#el]
