@@ -2,6 +2,8 @@
 
 A port of [mrzool/cv-boilerplate](https://github.com/mrzool/cv-boilerplate) in Typst, using native YAML parsing and scripting features.
 
+![Image of the first page of CV](/assets/thumbnail_1.png)
+
 ## Dependencies
 
 - EB Garamond, available on [Google Fonts](https://fonts.google.com/specimen/EB+Garamond)
