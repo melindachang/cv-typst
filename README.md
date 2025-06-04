@@ -2,7 +2,17 @@
 
 A port of [mrzool/cv-boilerplate](https://github.com/mrzool/cv-boilerplate) in Typst, using native YAML parsing and scripting features.
 
-![Image of the first page of CV](/assets/thumbnail_1.png)
+
+<table cellspacing="0" style="border-collapse: collapse !important; border-spacing: 0 !important;">
+ <tr>
+  <td>
+   <img src="/assets/thumbnail_1.png" alt="Sample CV Page 1">
+  </td>
+  <td>
+   <img src="/assets/thumbnail_2.png" alt="Sample CV Page 2">
+  </td>
+ </tr>
+</table>
 
 ## Dependencies
 
