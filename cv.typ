@@ -44,7 +44,7 @@
   ],
   [
     #for el in data.urls {
-      [#link(el)]
+      [#link("https://" + el)[#el]]
       if el != data.urls.last() [\ ]
     }
   ],
