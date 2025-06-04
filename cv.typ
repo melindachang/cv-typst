@@ -105,6 +105,7 @@
 ]
 
 = Service
+
 #for el in data.service [
   #block[
     #margin-note[#el.years]
@@ -112,6 +113,7 @@
     #if "description" in el [\ #el.description]
   ]
 ]
+
 = Selected Projects
 
 #for el in data.projects [
