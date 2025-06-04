@@ -1,0 +1,137 @@
+# Personal details
+name: Melinda Chang
+# address:
+#   - Humboldtstraße 36
+#   - 99425 Weimar
+#   - Prussia
+phone: "+1 (858) 342 8852"
+email: melinda@u.northwestern.edu
+
+# Insert URLs without http://
+urls:
+  - melindachang.com
+  - github.com/melindachang
+  - linkedin.com/in/melindahchang
+
+# Sections
+
+# intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+
+interests:
+  - Natural language processing (NLP), computer vision, cultural analytics
+  - Programming languages, software engineering
+  - Literary theory, aesthetics, critical and cultural studies
+
+education:
+  - year: 2024--Present
+    subject: B.A., Computer Science & Comparative Literary Studies
+    institute: Northwestern University
+    city: Evanston, IL
+    gpa: 3.73
+    subtitle: Dean's List (1 quarter)
+
+experience:
+  - years: 2025--Present
+    employer: University of California, Berkeley
+    group: School of Information
+    job: Undergraduate Researcher
+    city: Berkeley, CA
+    advisor: Prof. Timothy Tangherlini
+    description: Apprehending narrative in the Icelandic saga with literary-theoretical and computational methods.
+  - years: 2023--2024
+    employer: University of California, San Diego
+    group: Programming Systems Group
+    job: Student Researcher
+    city: La Jolla, CA
+    advisor: Prof. Michael Coblenz
+    description: Toward ergonomic programming languages and software processes for computational climate scientists.
+  - years: 2022
+    employer: University of California, San Diego
+    group: Laboratory for Computational Astrophysics
+    job: Research Assistant
+    city: La Jolla, CA
+    advisor: Prof. Michael Norman
+    description: Systems programming to support analysis of dark matter halos in early universe simulations.
+  - years: 2022
+    employer: Hack Club
+    job: Software Engineer Intern
+    city: Shelburne, VT (Remote)
+    description: Building web tooling for JavaScript-based game engine.
+publication:
+  - title: A Theory of Scientific Programming Efficacy
+    year: 2024
+    authors:
+    - Elizaveta Pertseva
+    - Melinda Chang
+    - Ulia Zaman
+    - Michael Coblenz
+    venue: ICSE 2024 [International Conference on Software Engineering]
+    doi: https://doi.org/10.1145/3597503.3639139
+
+# service:
+# -
+
+skills:
+  - TypeScript, React, Svelte, SASS, Tailwind
+  - Rust, Axum
+  - C/C++
+  - Python
+  - Java
+  - Haskell
+  - UNIX, Shell, Git
+
+award:
+  - name: National Merit Finalist
+    year: 2024
+  - name: 4th Place in Computational Systems & Analysis
+    organization: California Science & Engineering Fair
+    year: 2023
+  - name: 1st Award in Computer Science & Systems Software
+    organization: Greater San Diego Science & Engineering Fair
+    year: 2023
+
+projects:
+  - name: Albio
+    url: https://github.com/melindachang/albio
+    year: 2022--2023
+    description: Lightweight JavaScript compiler to enable reactive web programming directly in markdown. Outperforms Virtual DOM-based frameworks like React, Vue in key benchmarks.
+
+coursework:
+  - Data Structures & Algorithms
+  - Intro to Literary Theory
+  - C/C++ Programming
+  - Intro to Functional Programming
+  - Intro to Computer Systems
+  - Intro to AI
+  - Multivariable Calculus
+  - Linear Algebra
+
+service:
+  - title: Staff Writer
+    organization: Responsible AI Student Organization (RAISO)
+    years: 2025--Present
+    description: On current events in artificial intelligence ethics, tech policy, and computing culture.
+  - title: Founder & Editor-in-Chief
+    organization: Critical Culture Undergraduate Journal
+    years: 2025--Present
+    description: Northwestern's premier undergraduate venue for critical writing.
+  - title: Director of Technology
+    organization: WildHacks
+    years: 2024--Present
+    description: Leading software development at the largest collegiate hackathon in Chicagoland.
+  - title: Outreach Volunteer
+    organization: San Diego Astronomy Association
+    years: 2021--2024
+  - title: Founder & Director
+    organization: Hack the Wave
+    years: 2023
+    description: Organized San Diego County's biggest-ever high school hackathon.
+
+# Settings
+# mainfont: Hoefler Txt
+# mainfont: Cardo
+# fontsize: 10pt
+# lang: en-US
+# geometry: a4paper, left=35mm, right=35mm, top=35mm, bottom=20mm
+# ---
+
