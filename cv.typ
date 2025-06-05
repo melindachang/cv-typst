@@ -101,7 +101,7 @@
 
 == Publications
 
-#for el in data.publication [
+#for el in data.publications [
   #block[
     #margin-note[#el.year]
     #for a in el.authors {
@@ -114,7 +114,7 @@
 
 == Awards & Grants
 
-#for el in data.award [
+#for el in data.awards [
   #block[
     #margin-note[#el.year]
     #el.name#if "organization" in el [, #emph[#el.organization].] else [.]
