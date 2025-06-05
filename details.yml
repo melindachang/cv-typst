@@ -57,7 +57,7 @@ experience:
     job: Software Engineer Intern
     city: Shelburne, VT (Remote)
     description: Building web tooling for JavaScript-based game engine.
-publication:
+publications:
   - title: A Theory of Scientific Programming Efficacy
     year: 2024
     authors:
@@ -80,7 +80,7 @@ skills:
   - Haskell
   - UNIX, Shell, Git
 
-award:
+awards:
   - name: National Merit Finalist
     year: 2024
   - name: 4th Place in Computational Systems & Analysis

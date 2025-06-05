@@ -5,6 +5,21 @@
 #let margin-size = 1.25in
 #let margin-space = 0.4in
 
+#let margin-note(dy: 0.25em, content) = {
+  place(left, dx: -margin-size + margin-space, dy: dy, block(
+    width: margin-size - margin-space,
+    {
+      set text(size: 0.6em)
+      set align(left)
+      content
+    },
+  ))
+}
+
+#let em-dashed(content) = {
+  [#content.split("--").join([--])]
+}
+
 #set page(
   paper: "us-letter",
   margin: (
@@ -32,21 +47,6 @@
 
 #show heading.where(level: 1): it => text(size: 18pt, it.body)
 #show heading.where(level: 2): it => block[#text(size: 16pt, it.body)]
-
-#let margin-note(dy: 0.25em, content) = {
-  place(left, dx: -margin-size + margin-space, dy: dy, block(
-    width: margin-size - margin-space,
-    {
-      set text(size: 0.6em)
-      set align(left)
-      content
-    },
-  ))
-}
-
-#let em-dashed(content) = {
-  [#content.split("--").join([--])]
-}
 
 //////// CONTENT ////////
 
