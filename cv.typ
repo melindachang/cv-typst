@@ -16,8 +16,8 @@
   ))
 }
 
-#let em-dashed(content) = {
-  [#content.split("--").join([--])]
+#let parse_date(content) = {
+  if type(content) == str [#eval(content, mode: "markup")] else [#content]
 }
 
 #set page(
@@ -59,28 +59,23 @@
     #data.phone \
     #link(data.email)
   ],
-  [
-    #for el in data.urls {
-      [#link("https://" + el)[#el]]
-      if el != data.urls.last() [\ ]
-    }
-  ],
+  [#for el in data.urls [#link("https://" + el)[#el] \ ]],
 )
 
 #v(30pt)
 
 #smallcaps[Research Interests]
 
-#for el in data.interests {
-  [- #el]
-  if el != data.interests.last() [#parbreak()]
-}
+#for el in data.interests [
+  - #el
+  #parbreak()
+]
 
 == Education
 
 #for el in data.education [
   #block[
-    #margin-note[#em-dashed(el.years)]
+    #margin-note[#parse_date(el.years)]
     *#el.subject* \
     #emph[#el.institute], #el.city \
     GPA: #el.gpa, #el.subtitle
@@ -91,7 +86,7 @@
 
 #for el in data.experience [
   #block[
-    #margin-note[#em-dashed(el.years)]
+    #margin-note[#parse_date(el.years)]
     #smallcaps[#el.employer] \
     #emph[#el.job]#if "group" in el [, #el.group] \
     #if "advisor" in el [Advisor: #el.advisor. ]#el.description \
@@ -116,7 +111,7 @@
 
 #for el in data.awards [
   #block[
-    #margin-note[#el.year]
+    #margin-note[#parse_date(el.years)]
     #el.name#if "organization" in el [, #emph[#el.organization].] else [.]
   ]
 ]
@@ -125,7 +120,7 @@
 
 #for el in data.service [
   #block[
-    #margin-note[#em-dashed(el.years)]
+    #margin-note[#parse_date(el.years)]
     #emph[#el.title], #el.organization
     #if "description" in el [\ #el.description]
   ]
@@ -135,7 +130,7 @@
 
 #for el in data.projects [
   #block[
-    #margin-note[#em-dashed(el.years)]
+    #margin-note[#parse_date(el.years)]
     #link(el.url)[#emph[#el.name]]. #el.description
   ]
 ]
