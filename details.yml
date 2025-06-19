@@ -1,5 +1,5 @@
 name: Melinda Chang
-phone: "+1 (858) 342 8852"
+phone: '+1 (858) 342 8852'
 email: melinda@u.northwestern.edu
 
 urls:
@@ -8,17 +8,17 @@ urls:
   - linkedin.com/in/melindahchang
 
 interests:
-  - Natural language processing (NLP), computer vision, cultural analytics
-  - Programming languages, software engineering
-  - Literary theory, aesthetics, critical and cultural studies
+  - Programming languages, compilers, language-based security
+  - Computer vision, adversarial machine learning, defensive computing
+  - Cultural analytics, literary theory, critical and cultural studies
 
 education:
   - years: 2024--Present
     subject: B.A., Computer Science & Comparative Literary Studies
     institute: Northwestern University
     city: Evanston, IL
-    gpa: 3.73
-    subtitle: Dean's List (1 quarter)
+    gpa: 3.79
+    subtitle: Dean's List (2 quarters)
 
 experience:
   - years: 2025--Present
@@ -35,14 +35,14 @@ experience:
     city: La Jolla, CA
     advisor: Prof. Michael Coblenz
     description: Toward ergonomic programming languages and software processes for computational climate scientists.
-  - years: "2022"
+  - years: '2022'
     employer: University of California, San Diego
     group: Laboratory for Computational Astrophysics
     job: Research Assistant
     city: La Jolla, CA
     advisor: Prof. Michael Norman
     description: Systems programming to support analysis of dark matter halos in early universe simulations.
-  - years: "2022"
+  - years: '2022'
     employer: Hack Club
     job: Software Engineer Intern
     city: Shelburne, VT (Remote)
@@ -52,10 +52,10 @@ publications:
   - title: A Theory of Scientific Programming Efficacy
     year: 2024
     authors:
-    - Elizaveta Pertseva
-    - Melinda Chang
-    - Ulia Zaman
-    - Michael Coblenz
+      - Elizaveta Pertseva
+      - Melinda Chang
+      - Ulia Zaman
+      - Michael Coblenz
     venue: ICSE 2024 [International Conference on Software Engineering]
     doi: https://doi.org/10.1145/3597503.3639139
 
@@ -93,7 +93,7 @@ service:
     years: 2021--2024
   - title: Founder & Director
     organization: Hack the Wave
-    years: "2023"
+    years: '2023'
     description: Organized San Diego County's biggest-ever high school hackathon.
 
 skills:
@@ -104,7 +104,6 @@ skills:
   - Java
   - Haskell
   - UNIX, Shell, Git
-
 
 coursework:
   - Data Structures & Algorithms

@@ -55,10 +55,7 @@
 #grid(
   columns: 2,
   gutter: 1in,
-  [
-    #data.phone \
-    #link(data.email)
-  ],
+  [#data.phone \ #link(data.email)],
   [#for el in data.urls [#link("https://" + el)[#el] \ ]],
 )
 
