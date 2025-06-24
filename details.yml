@@ -1,6 +1,6 @@
 name: Melinda Chang
 phone: '+1 (858) 342 8852'
-email: melinda@u.northwestern.edu
+email: melinda\@u.northwestern.edu
 
 urls:
   - melindachang.com
@@ -8,8 +8,8 @@ urls:
   - linkedin.com/in/melindahchang
 
 interests:
-  - Programming languages, compilers, language-based security
-  - Computer vision, adversarial machine learning, defensive computing
+  - Programming languages, compilers, type systems
+  - Language-based security, defensive computing
   - Cultural analytics, literary theory, critical and cultural studies
 
 education:
@@ -98,12 +98,12 @@ service:
 
 skills:
   - TypeScript, React, Svelte, SASS, Tailwind
-  - Rust, Axum
+  - Rust
   - C/C++
   - Python
   - Java
-  - Haskell
-  - UNIX, Shell, Git
+  - ELisp
+  - Linux, Bash, Git
 
 coursework:
   - Data Structures & Algorithms
