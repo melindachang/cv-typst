@@ -80,10 +80,10 @@ service:
     organization: Responsible AI Student Organization (RAISO)
     years: 2025--Present
     description: On current events in artificial intelligence ethics, tech policy, and computing culture.
-  - title: Founder & Editor-in-Chief
-    organization: Critical Culture Undergraduate Journal
-    years: 2025--Present
-    description: Northwestern's premier undergraduate venue for critical writing.
+  # - title: Founder & Editor-in-Chief
+  #   organization: Critical Culture Undergraduate Journal
+  #   years: 2025--Present
+  #   description: Northwestern's premier undergraduate venue for critical writing.
   - title: Director of Technology
     organization: WildHacks
     years: 2024--Present
