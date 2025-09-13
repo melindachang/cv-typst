@@ -75,6 +75,14 @@ projects:
     years: 2022--2023
     description: Lightweight JavaScript compiler to enable reactive web programming directly in markdown. Outperforms Virtual DOM-based frameworks like React, Vue in key benchmarks.
 
+teaching:
+  - title: Undergraduate Teaching Assistant
+    course: COMP_SCI 396 Intro to Web Development
+    dept: Department of Computer Science
+    institute: Northwestern University
+    city: Evanston, IL
+    years: 2025
+
 service:
   - title: Staff Writer
     organization: Responsible AI Student Organization (RAISO)

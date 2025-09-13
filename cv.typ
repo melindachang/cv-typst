@@ -113,6 +113,18 @@
   ]
 ]
 
+== Teaching Experience
+
+#for el in data.teaching [
+  #block[
+    #margin-note[#parse_date(el.years)]
+    #smallcaps[#el.institute] \
+    #emph[#el.title], #el.course \
+    #if "description" in el [#el.description \\]
+  ]
+]
+
+
 == Service
 
 #for el in data.service [
