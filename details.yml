@@ -8,9 +8,9 @@ urls:
   - linkedin.com/in/melindahchang
 
 interests:
+  - Artificial intelligence ethics
   - Programming languages, compilers, type systems
-  - Language-based security, defensive computing
-  - Cultural analytics, literary theory, critical and cultural studies
+  - Literary theory, critical and cultural studies
 
 education:
   - years: 2024--Present
@@ -114,11 +114,12 @@ skills:
   - Linux, Bash, Git
 
 coursework:
-  - Data Structures & Algorithms
+  - Programming Languages
+  - Intro to Computer Networking
   - Intro to Literary Theory
   - C/C++ Programming
   - Intro to Functional Programming
   - Intro to Computer Systems
-  - Intro to AI
+  - Data Structures & Algorithms
   - Multivariable Calculus
   - Linear Algebra
