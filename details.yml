@@ -112,7 +112,7 @@ service:
   - title: Outreach Volunteer
     organization: San Diego Astronomy Association
     years: 2021--2024
-    description: Lectured on astronomical objects at dark sky sites across the state.
+    # description: Lectured on astronomical objects at dark sky sites across the state.
   - title: Founder & Director
     organization: Hack the Wave
     years: '2023'
