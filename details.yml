@@ -1,6 +1,6 @@
 name: Melinda Chang
 phone: '+1 (858) 342 8852'
-email: melinda\@u.northwestern.edu
+email: melinda@u.northwestern.edu
 
 urls:
   - melindachang.com
@@ -8,12 +8,12 @@ urls:
   - linkedin.com/in/melindahchang
 
 interests:
-  - Artificial intelligence ethics
+  - Security methods for artificial intelligence ethics
   - Programming languages, compilers, type systems
   - Literary theory, critical and cultural studies
 
 education:
-  - years: 2024--Present
+  - years: 2024--
     subject: B.A., Computer Science & Comparative Literary Studies
     institute: Northwestern University
     city: Evanston, IL
@@ -21,20 +21,27 @@ education:
     subtitle: Dean's List (2 quarters)
 
 experience:
-  - years: 2025--Present
+  - years: 2025--
+    employer: Northwestern University
+    group: Computational Journalism Lab
+    job: Undergraduate Researcher
+    city: Evanston, IL
+    advisor: Dr. Nick Hagar (lab of Prof. Nicholas Diakoupolous)
+    description: Technical interventions for data-secure SLMs in investigative document search.
+  - years: 2025--
     employer: University of California, Berkeley
     group: School of Information
     job: Undergraduate Researcher
-    city: Berkeley, CA
+    city: Berkeley, CA (Remote)
     advisor: Prof. Timothy Tangherlini
-    description: Exploring the affordances of language models in apprehending literary narratives with high social complexity.
+    description: Exploring the affordances of language models in parsing and structuring textual data, esp. literary narratives with high social complexity.
   - years: 2023--2024
     employer: University of California, San Diego
     group: Programming Systems Group
     job: Student Researcher
     city: La Jolla, CA
     advisor: Prof. Michael Coblenz
-    description: Toward ergonomic programming languages and software processes for computational climate scientists.
+    description: Toward ergonomic programming languages and software processes for computational climate scientists. Second author, ICSE '24 (22% acceptance).
   - years: '2022'
     employer: University of California, San Diego
     group: Laboratory for Computational Astrophysics
@@ -78,48 +85,55 @@ projects:
 teaching:
   - title: Undergraduate Teaching Assistant
     course: COMP_SCI 396 Intro to Web Development
-    dept: Department of Computer Science
-    institute: Northwestern University
+    organization: Northwestern University
     city: Evanston, IL
-    years: 2025
+    years: Fall 2025
+    # description: Provided weekly office hours.
 
 service:
+  - title: Reporter
+    organization: Daily Northwestern
+    years: 2025--
+    description: Critical coverage of visual art, literature, music for Arts & Entertainment desk.
+    affiliated: Northwestern University
+    city: Evanston, IL
   - title: Staff Writer
     organization: Responsible AI Student Organization (RAISO)
-    years: 2025--Present
+    years: 2025--
     description: On current events in artificial intelligence ethics, tech policy, and computing culture.
-  # - title: Founder & Editor-in-Chief
-  #   organization: Critical Culture Undergraduate Journal
-  #   years: 2025--Present
-  #   description: Northwestern's premier undergraduate venue for critical writing.
+    affiliated: Northwestern University
+    city: Evanston, IL
   - title: Director of Technology
     organization: WildHacks
-    years: 2024--Present
-    description: Leading software development at the largest collegiate hackathon in Chicagoland.
+    years: 2024--
+    description: Leading software development at the largest intercollegiate hackathon in the Chicagoland area.
+    affiliated: Northwestern University
+    city: Evanston, IL
   - title: Outreach Volunteer
     organization: San Diego Astronomy Association
     years: 2021--2024
+    description: Lectured on astronomical objects at dark sky sites across the state.
   - title: Founder & Director
     organization: Hack the Wave
     years: '2023'
-    description: Organized San Diego County's biggest-ever high school hackathon.
+    description: Organized biggest high schooler-run hackathon in San Diego County history.
 
 skills:
   - TypeScript, React, Svelte, SASS, Tailwind
   - Rust
+  - Common Lisp, Scheme
   - C/C++
   - Python
   - Java
-  - ELisp
   - Linux, Bash, Git
 
 coursework:
   - Programming Languages
   - Intro to Computer Networking
-  - Intro to Literary Theory
   - C/C++ Programming
   - Intro to Functional Programming
   - Intro to Computer Systems
   - Data Structures & Algorithms
   - Multivariable Calculus
   - Linear Algebra
+  - Intro to Literary Theory

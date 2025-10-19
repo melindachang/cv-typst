@@ -3,13 +3,13 @@
 //////// SETUP ////////
 
 #let margin-size = 1.25in
-#let margin-space = 0.4in
+#let margin-space = 0.45in
 
-#let margin-note(dy: 0.25em, content) = {
+#let margin-note(dy: 0.1em, content) = {
   place(left, dx: -margin-size + margin-space, dy: dy, block(
     width: margin-size - margin-space,
     {
-      set text(size: 0.6em)
+      set text(size: 0.75em)
       set align(left)
       content
     },
@@ -118,9 +118,9 @@
 #for el in data.teaching [
   #block[
     #margin-note[#parse_date(el.years)]
-    #smallcaps[#el.institute] \
     #emph[#el.title], #el.course \
-    #if "description" in el [#el.description \\]
+    #if "description" in el [#el.description \ ]
+    #el.organization $dot.c$ #el.city
   ]
 ]
 
@@ -132,6 +132,9 @@
     #margin-note[#parse_date(el.years)]
     #emph[#el.title], #el.organization
     #if "description" in el [\ #el.description]
+    #if (
+      "affiliated" in el and "city" in el
+    ) [\ #el.affiliated $dot.c$ #el.city] else if "city" in el [\ #el.city]
   ]
 ]
 
