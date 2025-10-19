@@ -55,8 +55,8 @@
 #grid(
   columns: 2,
   gutter: 1in,
-  [#data.phone \ #link(data.email)],
-  [#for el in data.urls [#link("https://" + el)[#el] \ ]],
+  [#data.phone\ #link(data.email)],
+  [#for el in data.urls [#link("https://" + el)[#el]\ ]],
 )
 
 #v(30pt)
@@ -73,8 +73,8 @@
 #for el in data.education [
   #block[
     #margin-note[#parse_date(el.years)]
-    *#el.subject* \
-    #emph[#el.institute], #el.city \
+    *#el.subject*\
+    #emph[#el.institute], #el.city\
     GPA: #el.gpa, #el.subtitle
   ]
 ]
@@ -84,11 +84,13 @@
 #for el in data.experience [
   #block[
     #margin-note[#parse_date(el.years)]
-    #smallcaps[#el.employer] \
-    #emph[#el.job]#if "group" in el [, #el.group] \
-    #if "advisor" in el [Advisor: #el.advisor. ]#if (
+    #smallcaps[#el.employer]\
+    #emph[#el.job]#if "group" in el [, #el.group]\
+    #if (
+      "advisor" in el
+    ) [Advisor: #el.advisor.#if "description" in el [ #el.description]\ ] else if (
       "description" in el
-    ) [#el.description \ ]
+    ) [#el.description\ ]
     #el.city
   ]
 ]
@@ -120,8 +122,8 @@
 #for el in data.teaching [
   #block[
     #margin-note[#parse_date(el.years)]
-    #emph[#el.title], #el.course \
-    #if "description" in el [#el.description \ ]
+    #emph[#el.title], #el.course\
+    #if "description" in el [#el.description\ ]
     #el.organization $dot.c$ #el.city
   ]
 ]

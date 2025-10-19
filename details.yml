@@ -41,14 +41,14 @@ experience:
     job: Student Researcher
     city: La Jolla, CA
     advisor: Prof. Michael Coblenz
-    description: Toward ergonomic programming languages and software processes for computational climate scientists. Second author, ICSE '24 (22% acceptance).
+    description: Toward ergonomic programming languages and software processes for computational climate scientists. Second author of paper in ICSE '24 (22% acceptance).
   - years: '2022'
     employer: University of California, San Diego
     group: Laboratory for Computational Astrophysics
     job: Research Assistant
     city: La Jolla, CA
     advisor: Prof. Michael Norman
-    # description: Systems programming to support analysis of dark matter halos in early universe simulations.
+    description: Systems programming to support analysis of dark matter halos in early universe simulations.
   - years: '2022'
     employer: Hack Club
     job: Software Engineer Intern
@@ -88,7 +88,6 @@ teaching:
     organization: Northwestern University
     city: Evanston, IL
     years: Fall 2025
-    # description: Provided weekly office hours.
 
 service:
   - title: Reporter
@@ -119,10 +118,10 @@ service:
     description: Organized biggest high schooler-run hackathon in San Diego County history.
 
 skills:
-  - TypeScript, React, Svelte, SASS, Tailwind
+  - TypeScript, React, Svelte
   - Rust
   - Common Lisp, Scheme
-  - C/C++
+  - C, C++
   - Python
   - Java
   - Linux, Bash, Git
