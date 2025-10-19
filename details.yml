@@ -48,12 +48,12 @@ experience:
     job: Research Assistant
     city: La Jolla, CA
     advisor: Prof. Michael Norman
-    description: Systems programming to support analysis of dark matter halos in early universe simulations.
+    # description: Systems programming to support analysis of dark matter halos in early universe simulations.
   - years: '2022'
     employer: Hack Club
     job: Software Engineer Intern
     city: Shelburne, VT (Remote)
-    description: Building web tooling for JavaScript-based game engine.
+    # description: Building web tooling for JavaScript-based game engine.
 
 publications:
   - title: A Theory of Scientific Programming Efficacy

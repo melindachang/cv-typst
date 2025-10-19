@@ -86,7 +86,9 @@
     #margin-note[#parse_date(el.years)]
     #smallcaps[#el.employer] \
     #emph[#el.job]#if "group" in el [, #el.group] \
-    #if "advisor" in el [Advisor: #el.advisor. ]#el.description \
+    #if "advisor" in el [Advisor: #el.advisor. ]#if (
+      "description" in el
+    ) [#el.description \ ]
     #el.city
   ]
 ]
